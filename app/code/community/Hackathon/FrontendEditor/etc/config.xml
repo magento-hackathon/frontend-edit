@@ -9,7 +9,7 @@
 		<layout>
 			<updates>
 				<frontend_editor>
-					<file>hackathon/frontend_editor/createjs.xml</file>
+					<file>hackathon/frontend_editor/frontend_editor.xml</file>
 				</frontend_editor>
 			</updates>
 		</layout>
@@ -17,7 +17,7 @@
 			<core_block_abstract_prepare_layout_after>
 				<observers>
 					<frontend_editor_is_admin>
-						<class>DMC_CreateJs_Model_Session</class>
+						<class>Hackathon_FrontendEditor_Model_Session</class>
 						<method>dispatchIsActive</method>
 						<type>singleton</type>
 					</frontend_editor_is_admin>
@@ -28,12 +28,12 @@
 	<global>
 		<blocks>
 			<frontendeditor>
-				<class>DMC_CreateJs_Block</class>
+				<class>Hackathon_FrontendEditor_Block</class>
 			</frontendeditor>
 		</blocks>
 		<models>
 			<frontendeditor>
-				<class>DMC_CreateJs_Model</class>
+				<class>Hackathon_FrontendEditor_Model</class>
 			</frontendeditor>
 		</models>
 	</global>
