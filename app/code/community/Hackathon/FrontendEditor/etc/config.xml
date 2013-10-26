@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Hackathon_FrontendEditor>
+		<Hackathon_Frontendeditor>
 			<version>0.1.0.0</version>
-		</Hackathon_FrontendEditor>
-	</modules>
+        </Hackathon_Frontendeditor>
+    </modules>
 	<frontend>
 		<layout>
 			<updates>
