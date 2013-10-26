@@ -1,0 +1,5 @@
+app/code/community/Hackathon                                app/code/community/Hackathon
+app/design/frontend/base/default/layout/hackathon           app/design/frontend/base/default/layout/hackathon
+app/etc/modules/Hackathon_FrontendEditor.xml                app/etc/modules/Hackathon_FrontendEditor.xml
+js/hackathon                                                js/hackathon
+skin/frontend/base/default/hackaton                         skin/frontend/base/default/hackathon
