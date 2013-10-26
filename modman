@@ -1,4 +1,4 @@
-app/code/community/Hackathon                                app/code/community/Hackathon
+app/code/community/Hackathon/Frontendeditor                 app/code/community/Hackathon/Frontendeditor
 app/design/frontend/base/default/layout/hackathon           app/design/frontend/base/default/layout/hackathon
 app/etc/modules/Hackathon_Frontendeditor.xml                app/etc/modules/Hackathon_Frontendeditor.xml
 js/hackathon                                                js/hackathon
