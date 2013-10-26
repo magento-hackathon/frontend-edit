@@ -1,7 +1,7 @@
 <?php
 
 
-class Hackathon_FrontendEditor_Block_Loader extends Mage_Core_Block_Abstract
+class Hackathon_Frontendeditor_Block_Loader extends Mage_Core_Block_Abstract
 {
 
     public function getCreateJsHtml() {

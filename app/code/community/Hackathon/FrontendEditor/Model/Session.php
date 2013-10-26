@@ -1,6 +1,6 @@
 <?php
 
-class Hackathon_FrontendEditor_Model_Session extends Varien_Object{
+class Hackathon_Frontendeditor_Model_Session extends Varien_Object{
 
     private static $isActive = false;
 

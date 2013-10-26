@@ -17,7 +17,7 @@
 			<core_block_abstract_prepare_layout_after>
 				<observers>
 					<frontend_editor_is_admin>
-						<class>Hackathon_FrontendEditor_Model_Session</class>
+						<class>Hackathon_Frontendeditor_Model_Session</class>
 						<method>dispatchIsActive</method>
 						<type>singleton</type>
 					</frontend_editor_is_admin>
@@ -28,12 +28,12 @@
 	<global>
 		<blocks>
 			<frontendeditor>
-				<class>Hackathon_FrontendEditor_Block</class>
+				<class>Hackathon_Frontendeditor_Block</class>
 			</frontendeditor>
 		</blocks>
 		<models>
 			<frontendeditor>
-				<class>Hackathon_FrontendEditor_Model</class>
+				<class>Hackathon_Hackathon_Frontendeditor_Model</class>
 			</frontendeditor>
 		</models>
 	</global>
@@ -42,7 +42,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <Hackathon_FrontendEditor before="Mage_Adminhtml">Hackathon_FrontendEditor_Adminhtml</Hackathon_FrontendEditor>
+                        <Hackathon_Frontendeditor before="Mage_Adminhtml">Hackathon_Frontendeditor_Adminhtml</Hackathon_Frontendeditor>
                     </modules>
                 </args>
             </adminhtml>

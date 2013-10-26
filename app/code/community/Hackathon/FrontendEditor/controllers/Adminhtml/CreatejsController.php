@@ -1,6 +1,6 @@
 <?php
 
-class Hackathon_FrontendEditor_Adminhtml_CreatejsController extends Mage_Adminhtml_Controller_Action
+class Hackathon_Frontendeditor_Adminhtml_CreatejsController extends Mage_Adminhtml_Controller_Action
 {
 
     public function getcreatejsAction($fKey)
@@ -9,7 +9,7 @@ class Hackathon_FrontendEditor_Adminhtml_CreatejsController extends Mage_Adminht
         $this->getResponse()->clearAllHeaders();
         $this->getResponse()->setHttpResponseCode(200);
 
-        $result = Mage::app()->getLayout()->createBlock('hackathon_frontendEditor/loader')->getCreateJsHtml();
+        $result = Mage::app()->getLayout()->createBlock('hackathon_frontendeditor/loader')->getCreateJsHtml();
         $result['fKey'] = $fKey;
         $aUrl = Mage::helper('adminhtml')->getUrl('/createjs/savecreatejs');
         $result['aurl'] = $aUrl;
