@@ -8,9 +8,9 @@
 	<frontend>
 		<layout>
 			<updates>
-				<frontend_editor>
+				<frontendeditor>
 					<file>hackathon/frontend_editor/frontend_editor.xml</file>
-				</frontend_editor>
+				</frontendeditor>
 			</updates>
 		</layout>
 		<events>
